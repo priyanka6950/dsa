@@ -24,6 +24,7 @@ public class Eight {
                 continue;
             if(arr[i]<sec_min)
                 sec_min=arr[i];
+                System.out.println("");
         }
         System.out.println(sec_min);
         for(int i=N-1;i>=0;i--)
